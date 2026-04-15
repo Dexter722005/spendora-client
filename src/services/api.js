@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL:"https://spendora-production-0fce.up.railway.app/"
+  baseURL:"https://spendora-production-0fce.up.railway.app/api"
 });
 
 API.interceptors.request.use((req) => {
